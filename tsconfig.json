@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "importHelpers": true,
+      "paths": {
+        "@test/pageobjects": [
+          "test/pageobjects/index.ts"
+        ]
+      },
+      "outDir": "./dist/out-tsc",
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "target": "es2015",
+      "module": "es2020",
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "lib": [
+        "es2021",
+        "dom"
+      ]
+    }
+}
+  

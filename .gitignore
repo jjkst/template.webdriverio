@@ -1,0 +1,15 @@
+# Dist #
+/dist
+
+# Built #
+/node_modules/
+
+# IDE #
+.idea/
+.vscode/
+
+# Reports #
+report.*
+
+# Test Reports #
+results/
